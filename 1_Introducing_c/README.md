@@ -3,12 +3,12 @@
 - 1.1 History of C
 - 1.2 Strengths and Weaknesses of C
 
+--- 
+
 - C의 정의
 - C의 기원, 디자인, 변화 과정
 - C의 강점과 약점
 - C의 효과적인 사용법
-
----
 
 ## 1.1 History of C
 
