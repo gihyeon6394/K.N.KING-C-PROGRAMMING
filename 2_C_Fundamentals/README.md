@@ -196,12 +196,29 @@ return 0; // End of Program
 ```c
 int debutYear; // 아이돌 데뷔 년도
 float profit;
+
+int height, width, length; // 가로, 세로, 높이
 ```
 
 - 변수는 사용 전에 '선언' 되어야 함
 - 선언 : 변수의 이름과 타입을 컴파일러에게 알려줌
+- C99부터 Statement과 Declaration을 동시에 가능
+    - C++, Java에서 자주 사용
 
 ### Assignment
+
+```c
+int debutYear; // Declaration
+debutYear = 2015; // Assignment
+
+float profit;
+profit = 2150.48;
+
+float profit2
+profit2 = 2150.48f; // f : float 타입임을 명시
+```
+
+- 선언된 변수에 값을 할당
 
 ### Printing the Value of a Variable
 
