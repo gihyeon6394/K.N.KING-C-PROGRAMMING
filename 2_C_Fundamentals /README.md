@@ -11,7 +11,12 @@
 
 ---
 
+- basic concepts
+- directives, functions, variables, statements
+
 ## 1. Writing a Simple Program
+
+
 
 ## Program : Printing a Pun
 
