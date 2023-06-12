@@ -174,6 +174,43 @@ return 0; // End of Program
 
 ## 4. Variables and Assignment
 
+- 출력하기 전에 여러 연산이 필요
+- 따라서 프로그램 실행 중 임시로 데이터를 저장할 공간이 필요
+- 변수 : 임시로 데이터를 저장할 공간
+
+### Types
+
+- 모든 변수는 type을 가짐
+- 타입 : 변수에 저장할 데이터의 종류 <sub>숫자, 문자, 문자열 등</sub>
+- 타입 지정이 결정하는 것
+    - 변수에 저장할 방안
+    - 변수가 수행할 명령
+    - 최대 / 최소 <sub>숫자의 경우</sub>
+    - 소수점 이하 자릿수 <sub>실수의 경우</sub>
+- int가 float보다 더 큰 범위를 가짐
+    - int<sup>Ingeger</sup> : ~2147483647, 정수
+    - float : ~3.4E38, 실수 표현에 사용
+
+### Declarations
+
+```c
+int debutYear; // 아이돌 데뷔 년도
+float profit;
+```
+
+- 변수는 사용 전에 '선언' 되어야 함
+- 선언 : 변수의 이름과 타입을 컴파일러에게 알려줌
+
+### Assignment
+
+### Printing the Value of a Variable
+
+### Program : Computing the Dimesiional Weight of a Box
+
+### Initialization
+
+### Printing Expressions
+
 ## 5. Reading Input
 
 ## 6. Defining Names for Constants
