@@ -1,11 +1,18 @@
-//
-// Created by 김기현 on 2023/06/12.
-//
+/*
+  Name : pun.c
+  Purpose: Prints a bad pun.
+  Author: kgh
+  */
 
+/*****************************************************
+ * Name : pun.c
+ * Purpose: Prints a bad pun.
+ * Author: kgh
+ *****************************************************/
 
 #include <stdio.h>
 
-int main(void) {
+int main(void) { /* Beginning of Program */
     printf("To C, or not to C: that is the question.\n");
-    return 0;
+    return 0; // End of Program
 }

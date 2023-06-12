@@ -145,6 +145,33 @@ printf(": that is the question.\n"); // print "To C, or not to C: that is the qu
 
 ## 3. Comments
 
+- documentation
+- 프로그램의 식별 정보 : 프로그램 이름, 작성일, 작성자 등
+- /* ... */ 으로 표현
+- // : 한 줄 주석 <sub>C99 부터 추가</sub>
+
+```c
+/*
+  Name : pun.c
+  Purpose: Prints a bad pun.
+  Author: kgh
+  */
+
+/*****************************************************
+ * Name : pun.c
+ * Purpose: Prints a bad pun.
+ * Author: kgh
+ *****************************************************/
+
+#include
+<stdio.h>
+
+int main(void) { /* Beginning of Program */
+printf("To C, or not to C: that is the question.\n");
+return 0; // End of Program
+}
+```
+
 ## 4. Variables and Assignment
 
 ## 5. Reading Input
