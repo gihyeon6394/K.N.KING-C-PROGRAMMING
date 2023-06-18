@@ -222,11 +222,53 @@ profit2 = 2150.48f; // f : float 타입임을 명시
 
 ### Printing the Value of a Variable
 
-### Program : Computing the Dimesiional Weight of a Box
+```c
+int height = 187;
+int weight = 95;
+printf("HEIGHT : %d Length : %d\n", height, length);
+```
+
+### Program : Computing the Dimensional Weight of a Box
+
+```c
+#include <stdio.h>
+
+int main(void) {
+    int height, length, width, volume, weight;
+    height = 8;
+    length = 12;
+    width = 10;
+    volume = height * length * width;
+    weight = (volume + 165) / 166;
+
+    printf("Dimensions: %dx%dx%d\n", length, width, height);
+    printf("Volume (cubic inches): %d\n", volume);
+    printf("Dimensional weight (pounds): %d\n", (volume + 165) / 166);
+
+    return 0;
+}
+```
 
 ### Initialization
 
+- 기본값이 정해진 변수는 초기화하지 않아도 됨
+- 기본값이 없는 변수 타입은 초기화 하지않으면 사용할 떄 에러 발생
+
+```c
+int height = 8; // 초기화
+int length = 12, width = 10; // 여러 변수 초기화
+int volume, weight = 190; // weight만 초기화
+```
+
 ### Printing Expressions
+
+```c
+volume = height * length * width;
+printf("Volume (cubic inches): %d\n", volume);
+
+// replaced by
+printf("Volume (cubic inches): %d\n", height * length * width);
+```
 
 ## 5. Reading Input
 

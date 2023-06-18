@@ -14,5 +14,10 @@
 
 int main(void) { /* Beginning of Program */
     printf("To C, or not to C: that is the question.\n");
+
+    int height = 187;
+    int weight = 95;
+    printf("Height: %d, Weight: %d\n", height, weight);
+
     return 0; // End of Program
 }
