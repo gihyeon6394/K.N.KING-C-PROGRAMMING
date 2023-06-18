@@ -7,7 +7,7 @@
 ### Basic Features of C
 
 1. [Introducing C](1_Introducing_c/README.md)
-2. C Fundamentals
+2. [C Fundamentals](2_C_Fundamentals/README.md)
 3. Formatted Input/Output
 4. Expressions
 5. Selection Statements
