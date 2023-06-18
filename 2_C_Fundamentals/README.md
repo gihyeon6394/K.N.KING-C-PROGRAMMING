@@ -272,6 +272,40 @@ printf("Volume (cubic inches): %d\n", height * length * width);
 
 ## 5. Reading Input
 
+- `scanf()`
+    - "f"는 formatted를 의미
+    - 데이터의 포맷화 과정이 필요함을 의미
+- prompt에 사용자가 값을 입력하고 엔터를 입력할 때까지 대기
+    - 엔터를 입력하면 다음 line으로 이동
+
+```c
+scanf("%d", &i); /* read an integer into i */
+scanf("%f", &x); /* read a float into x */
+```
+
+### Computing the Dimensional Weight of a Box (Revisited)
+
+```c
+#include <stdio.h>
+
+int main(void) {
+    int height, length, width, volume, weight;
+
+    printf("Enter the height of the box: ");
+    scanf("%d", &height);
+    printf("Enter the length of the box: ");
+    scanf("%d", &length);
+    printf("Enter the width of the box: ");
+    scanf("%d", &width);
+    volume = height * length * width;
+
+    printf("Volume (cubic inches): %d\n", volume);
+    printf("Dimensional weight (pounds): %d\n", (volume + 165) / 166);
+
+    return 0;
+}
+```
+
 ## 6. Defining Names for Constants
 
 ## 7. Identifiers
