@@ -338,3 +338,13 @@ int main(void) {
     - `idolName`, `idolGroup`, `name`, ...
 
 ## 8. Layout of a C Program
+
+- 적절한 띄어쓰기와 줄바꿈이 가독성을 높임
+- token 사이의 띄어쓰기
+- 들여쓰기
+- 라인 사이의 빈 줄로 논리적인 유닛 구벼리
+
+```c
+printf("there is so many attractive idols. but my favorite idol group : %s\n"
+       , GROUP_NAME_AESPA);
+```
