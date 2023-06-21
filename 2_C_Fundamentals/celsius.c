@@ -20,4 +20,5 @@ int main(void)
     printf("Celcius equivalent: %.1f\n", celsius);
 
     return 0;
+
 }

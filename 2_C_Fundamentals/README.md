@@ -128,7 +128,7 @@ int main(void) {
 ### Statements
 
 - 프로그램 실행 시 실행되어야 할 명령어
-- printf()
+  - `printf()`
 - ; : 명령어의 끝을 의미
 
 ### Printing Strings
