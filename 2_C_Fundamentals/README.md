@@ -174,9 +174,9 @@ return 0; // End of Program
 
 ## 4. Variables and Assignment
 
-- 출력하기 전에 여러 연산이 필요
-- 따라서 프로그램 실행 중 임시로 데이터를 저장할 공간이 필요
-- 변수 : 임시로 데이터를 저장할 공간
+- 출력 전에 여러 연산이 필요
+- 따라서 프로그램 실행 중 임시로 데이터 저장할 공간이 필요
+- 변수 : 임시로 데이터 저장할 공간
 
 ### Types
 
@@ -308,6 +308,24 @@ int main(void) {
 
 ## 6. Defining Names for Constants
 
+#### macro definition
+
+- 대문자와 밑줄로 명명
+
+```c
+#define INCHES_PER_POUND 166
+#define RECIPROCAL_OF_PI (1.0f / 3.14159f)
+```
+
+### Converting Fahrenheit to Celsius
+
+```c
+#define SCALE_FACTOR (5.0f / 9.0f) // float 타입, 실수 표현 
+#define SCALE_FACTOR (5 / 9) // int 타입, 정수, 버림, 0
+```
+
 ## 7. Identifiers
+
+
 
 ## 8. Layout of a C Program
