@@ -326,6 +326,15 @@ int main(void) {
 
 ## 7. Identifiers
 
-
+- 변수, 함수, 상수 등의 이름
+- case sensitive
+    - `job`, `Job`, `JOB` : 서로 다른 이름
+- 숫자로 시작 불가능
+    - `1st`, `2nd`¬
+- keword 안됨
+    - `int`, `float`, `if`, `while`, ...
+- underscore, camelCase가 베스트
+    - camelCase 소문자가 제일 베스트
+    - `idolName`, `idolGroup`, `name`, ...
 
 ## 8. Layout of a C Program
