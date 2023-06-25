@@ -8,7 +8,7 @@
 
 1. [Introducing C](1_Introducing_c/README.md)
 2. [C Fundamentals](2_C_Fundamentals/README.md)
-3. Formatted Input/Output
+3. [Formatted Input/Output](3_Formatted_Input_Output/README.md)
 4. Expressions
 5. Selection Statements
 6. Loops
