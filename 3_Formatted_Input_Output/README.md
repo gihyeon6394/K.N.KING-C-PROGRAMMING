@@ -17,6 +17,25 @@ printf(string, expr1, expr2, ...);
 
 ### Conversion Specifications
 
+````
+%m.pX
+%-m.pX
+%[minimum field width].[precision][conversion character]
+
+/* example */
+printf("%10.3f", 123.456); // "   123.456"
+printf("%-10.3f", 123.456); // "123.456   "
+````
+
+- `m` : minimum field width
+- `p` : precision
+- `X` : conversion character
+    - `d` : decimal integer
+    - `e` : floating-point number in scientific notation
+    - `f` : floating-point number in fixed decimal notation
+    - `g` : floating-point number in either scientific or fixed decimal notation
+        - compile 시점에 float의 사이즈를 모를때 유용
+
 ### Program : Using `printf` to Format Numbers
 
 ### Escape Sequences
