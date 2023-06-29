@@ -16,6 +16,9 @@ int main()
 
     printf("i = %d, j = %d, x = %f, y = %f\n", i, j, x, y);
 
+    printf("NewJeans\tMinzi\tHaerin\tHani\nAespa\t\tkarina\tGiselle\tWinter\tNingning\n");
+    printf("I Love \"Aespa\"\nI Love \"Karina\"");
+
 
 
 }
